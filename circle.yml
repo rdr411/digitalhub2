@@ -4,7 +4,8 @@ machine:
 
 dependencies:
   override:
-npm install -g n n 7.4.0
+  curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+  sudo apt-get install -y nodejs
 test:
   nvm ls
   post:
