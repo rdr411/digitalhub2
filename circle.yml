@@ -4,10 +4,9 @@ machine:
 
 dependencies:
   override:
-  curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-  sudo apt-get install -y nodejs
+
 test:
-  nvm ls
+  -nvm ls
   post:
-    chmod + x ./dbcheck2.js
-    node ./dbcheck2.js
+    -chmod + x ./dbcheck2.js
+    -node ./dbcheck2.js
