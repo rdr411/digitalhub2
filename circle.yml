@@ -8,5 +8,5 @@ dependencies:
 test:
   -nvm ls
   post:
-    -chmod + x ./dbcheck2.js
-    -node ./dbcheck2.js
+    chmod + x ./dbcheck2.js
+    node ./dbcheck2.js
