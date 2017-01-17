@@ -3,8 +3,8 @@ machine:
     version: 7.4.0
 dependencies:
   override:
-    - npm install
+
 test:
   post:
+    chmod + x ./dbcheck2.js
     - ./dbcheck2.js
-
