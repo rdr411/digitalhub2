@@ -5,8 +5,7 @@ machine:
 
 dependencies:
   override:
-    - npm install
-npm install mongodb
+- npm install mongodb
 
 
 
