@@ -1,0 +1,15 @@
+machine:
+  node:
+    version: 7.4.0
+
+
+dependencies:
+  override:
+    - npm install
+npm install mongodb
+
+
+
+test:
+  post:
+    - ./dbcheck2.js
