@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   override:
-
+npm install -g n n 7.4.0
 test:
   nvm ls
   post:
