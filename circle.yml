@@ -1,9 +1,10 @@
 machine:
   node:
     version: 7.4.0
+
 dependencies:
   override:
-  node -v
+
 test:
   nvm ls
   post:
