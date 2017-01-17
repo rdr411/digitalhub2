@@ -10,5 +10,8 @@
     } else {
         console.log("Successfully connected to digitalhub2.documents.azure.com");
     }
-              db.close();
+           db.collection('content_items').find().toArray(function(e, d) {
+            console.log(d.length);
+           db.close();
           });
+    });
