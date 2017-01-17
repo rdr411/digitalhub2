@@ -3,7 +3,6 @@ machine:
     version: 7.4.0
 dependencies:
   override:
-npm install node
 test:
   nvm ls
   post:
